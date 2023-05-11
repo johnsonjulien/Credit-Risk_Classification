@@ -3,25 +3,21 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+This dataset was used to identify the creditworthiness of borrowers. Using various information about the individuals loans, debts, accounts and income, a Logestic Regression Model was used to classify the risk level of a loan.
 
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * After testing and training the data set, the overall accuracy score was .99. Both the weighted recall and precision averagew were .94.
+  * The healthy loan scores were solid, 1.00 for each accuracy, recall and precision.
+  * The high-risk loan scores were lower with .87 for precision, .89 for recall and .88 for accuracy.
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * After testing and training the resampled data set, all scores were 1.00.
 
 ## Summary
 
