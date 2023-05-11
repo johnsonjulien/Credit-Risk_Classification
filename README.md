@@ -10,7 +10,7 @@ This dataset was used to identify the creditworthiness of borrowers. Using vario
 
 * Machine Learning Model 1:
   * After testing and training the data set, the overall accuracy score was .99. Both the weighted recall and precision average were .94.
-  * The healthy loan scores were solid, 1.00 for each accuracy, recall and precision.
+  * The healthy loan scores were solid, 1.00 each for accuracy, recall and precision.
   * The high-risk loan scores were lower with .87 for precision, .89 for recall and .88 for accuracy.
 
 
